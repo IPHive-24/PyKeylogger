@@ -28,7 +28,7 @@ A keylogger is a software or hardware tool that records the keystrokes made on a
 
 1. Run this code to clone the repo:
 ```bash
-git clone https://github.com/j4ik2i5x0/PyKeylogger
+git clone https://github.com/IPHive-24/PyKeylogger.git
 ```
 
 2. Run this command to install all the packages required in your virtual environment:
